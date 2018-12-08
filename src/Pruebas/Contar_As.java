@@ -22,18 +22,14 @@ public class Contar_As {
 	}
 	public static void contar_As(String cadena){
 		String cadena_auxiliar = "" ;
+		cadena_auxiliar = cadena_auxiliar;
 		int cont1=0,cont_auxiliar = 0;
 		
 		System.out.println("cadena anterior --> "+cadena_auxiliar);
-		System.out.println("====================================");
-		System.out.println("cadena recibida --> "+cadena);
-		System.out.println("====================================");
+		System.out.println("================================");
+		System.out.println("cadena actual --> "+cadena);
 		
+		cadena = cadena_auxiliar;
 		
-		for (int i = 0; i < cadena.length(); i++) {
-			if(cadena.charAt(i) == 'a') {
-				cont1++;
-			}
-		}
 	}
 }
