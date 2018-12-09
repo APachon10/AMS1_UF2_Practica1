@@ -12,8 +12,6 @@ public class IntroArray {
 		
 	}
 	public void IntrNotas(int array_prueba [],String notas) {
-		System.out.println("Leyendo y insertando notas ");
-		System.out.println("==============================");
 		String notas2 []= notas.split(" "); 
 		for (int j = 0; j < notas2.length; j++) {
 			if(!notas2[j].equals("-1")) {
@@ -24,7 +22,6 @@ public class IntroArray {
 					array_prueba[j] = conver;
 				}
 			}
-			System.out.println("Array_Prueba--> "+ array_prueba[j]);
 		}
 	}
 	public void Menu(int array_prueba [],String notas) {
