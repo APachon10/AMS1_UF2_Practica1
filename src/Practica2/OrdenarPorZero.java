@@ -11,7 +11,7 @@ public class OrdenarPorZero {
 	public int  contarZeros(String numeros[]) {
 		mostrarVector(numeros);
 		int contadorZeros = 0; 
-		int contador =0;a
+		int contador =0;
 		for (int i = 0; i < numeros.length ; i++) {
 			
 			if (numeros[i].charAt(i) == '0') {
